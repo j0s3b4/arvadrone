@@ -1,0 +1,1274 @@
+EESchema Schematic File Version 4
+LIBS:arvadrone-cache
+EELAYER 30 0
+EELAYER END
+$Descr A3 16535 11693
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Device:L L1
+U 1 1 5D7288FB
+P 11700 2300
+F 0 "L1" V 11890 2300 50  0000 C CNN
+F 1 "1mH" V 11799 2300 50  0000 C CNN
+F 2 "" H 11700 2300 50  0001 C CNN
+F 3 "~" H 11700 2300 50  0001 C CNN
+	1    11700 2300
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:C_Small C9
+U 1 1 5D72E570
+P 12250 2450
+F 0 "C9" H 12342 2457 50  0000 L CNN
+F 1 "100n" H 12381 2327 50  0000 C BNN
+F 2 "" H 12250 2450 50  0001 C CNN
+F 3 "~" H 12250 2450 50  0001 C CNN
+	1    12250 2450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:CP_Small C10
+U 1 1 5D72FB78
+P 13050 2500
+F 0 "C10" H 13138 2546 50  0000 L CNN
+F 1 "22u" H 13138 2455 50  0000 L CNN
+F 2 "" H 13050 2500 50  0001 C CNN
+F 3 "~" H 13050 2500 50  0001 C CNN
+	1    13050 2500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:CP_Small C2
+U 1 1 5D730E9A
+P 13400 2500
+F 0 "C2" H 13488 2546 50  0000 L CNN
+F 1 "110u" H 13488 2455 50  0000 L CNN
+F 2 "" H 13400 2500 50  0001 C CNN
+F 3 "~" H 13400 2500 50  0001 C CNN
+	1    13400 2500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:CP_Small C12
+U 1 1 5D731A20
+P 14500 2950
+F 0 "C12" V 14650 2850 50  0000 L CNN
+F 1 "10u" V 14750 2850 50  0000 L CNN
+F 2 "" H 14500 2950 50  0001 C CNN
+F 3 "~" H 14500 2950 50  0001 C CNN
+	1    14500 2950
+	0    1    1    0   
+$EndComp
+$Comp
+L Reference_Voltage:TLE2426xD U3
+U 1 1 5D73225A
+P 14250 2400
+F 0 "U3" H 14250 2867 50  0000 C CNN
+F 1 "TLE2426xD" H 14250 2776 50  0000 C CNN
+F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 14250 1800 50  0001 C CIN
+F 3 "http://www.ti.com/lit/ds/symlink/tle2426.pdf" H 12850 3350 50  0001 C CIN
+	1    14250 2400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:CP_Small C11
+U 1 1 5D73334A
+P 14200 1800
+F 0 "C11" V 14425 1800 50  0000 C CNN
+F 1 "10u" V 14334 1800 50  0000 C CNN
+F 2 "" H 14200 1800 50  0001 C CNN
+F 3 "~" H 14200 1800 50  0001 C CNN
+	1    14200 1800
+	0    -1   -1   0   
+$EndComp
+$Comp
+L LP3985IM5-5.0:LP3985IM5-5.0 U9
+U 1 1 5D7349F5
+P 4200 2300
+F 0 "U9" H 4200 2765 50  0000 C CNN
+F 1 "LP3985IM5-5.0" H 4200 2674 50  0000 C CNN
+F 2 "SOT95P300X120-5N" H 4200 2300 50  0001 L BNN
+F 3 "SOT-23 Texas Instruments" H 4200 2300 50  0001 L BNN
+F 4 "Micropower, 150mA Low-Noise Ultra Low-Dropout CMOS Voltage Regulator 5-SOT-23 -40 to 125" H 4200 2300 50  0001 L BNN "Field4"
+F 5 "https://www.digikey.es/product-detail/en/texas-instruments/LP3985IM5-5.0-NOPB/LP3985IM5-5.0-NOPBCT-ND/483170?utm_source=snapeda&utm_medium=aggregator&utm_campaign=symbol" H 4200 2300 50  0001 L BNN "Field5"
+F 6 "Texas Instruments" H 4200 2300 50  0001 L BNN "Field6"
+F 7 "LP3985IM5-5.0/NOPBCT-ND" H 4200 2300 50  0001 L BNN "Field7"
+F 8 "LP3985IM5-5.0/NOPB" H 4200 2300 50  0001 L BNN "Field8"
+	1    4200 2300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C13
+U 1 1 5D735880
+P 2750 2600
+F 0 "C13" H 2842 2646 50  0000 L CNN
+F 1 "100n" H 2842 2555 50  0000 L CNN
+F 2 "" H 2750 2600 50  0001 C CNN
+F 3 "~" H 2750 2600 50  0001 C CNN
+	1    2750 2600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small CA3
+U 1 1 5D73610A
+P 2450 2400
+F 0 "CA3" H 2542 2446 50  0000 L CNN
+F 1 "1u" H 2542 2355 50  0000 L CNN
+F 2 "" H 2450 2400 50  0001 C CNN
+F 3 "~" H 2450 2400 50  0001 C CNN
+	1    2450 2400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small CA1
+U 1 1 5D7367F6
+P 5550 2500
+F 0 "CA1" H 5642 2546 50  0000 L CNN
+F 1 "1u" H 5642 2455 50  0000 L CNN
+F 2 "" H 5550 2500 50  0001 C CNN
+F 3 "~" H 5550 2500 50  0001 C CNN
+	1    5550 2500
+	1    0    0    -1  
+$EndComp
+$Comp
+L INA163UA:INA163UA U2
+U 1 1 5D7376D4
+P 2800 6400
+F 0 "U2" H 2800 7370 50  0000 C CNN
+F 1 "INA163UA" H 2800 7279 50  0000 C CNN
+F 2 "SOIC127P600X175-14N" H 2800 6400 50  0001 L BNN
+F 3 "INA163UA-ND" H 2800 6400 50  0001 L BNN
+F 4 "" H 2800 6400 50  0001 L BNN "Field4"
+F 5 "INA163UA" H 2800 6400 50  0001 L BNN "Field5"
+F 6 "SO-14 Burr Brown" H 2800 6400 50  0001 L BNN "Field6"
+F 7 "Texas Instruments" H 2800 6400 50  0001 L BNN "Field7"
+F 8 "https://www.digikey.es/product-detail/en/texas-instruments/INA163UA/INA163UA-ND/362216?utm_source=snapeda&utm_medium=aggregator&utm_campaign=symbol" H 2800 6400 50  0001 L BNN "Field8"
+	1    2800 6400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small CA2
+U 1 1 5D738963
+P 1000 6800
+F 0 "CA2" H 1092 6846 50  0000 L CNN
+F 1 "2.2u" H 1092 6755 50  0000 L CNN
+F 2 "" H 1000 6800 50  0001 C CNN
+F 3 "~" H 1000 6800 50  0001 C CNN
+	1    1000 6800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small CA
+U 1 1 5D738FD6
+P 1000 6050
+F 0 "CA" H 1092 6096 50  0000 L CNN
+F 1 "2.2u" H 1092 6005 50  0000 L CNN
+F 2 "" H 1000 6050 50  0001 C CNN
+F 3 "~" H 1000 6050 50  0001 C CNN
+	1    1000 6050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small R1
+U 1 1 5D73A045
+P 1900 6200
+F 0 "R1" V 1850 6000 50  0000 L CNN
+F 1 "1K5" V 1950 5950 50  0000 L CNN
+F 2 "" H 1900 6200 50  0001 C CNN
+F 3 "~" H 1900 6200 50  0001 C CNN
+	1    1900 6200
+	0    1    1    0   
+$EndComp
+$Comp
+L TLE2072CD:TLE2072CD U1
+U 1 1 5D73BF74
+P 4950 6250
+F 0 "U1" H 4950 6820 50  0000 C CNN
+F 1 "TLE2072CD" H 4950 6729 50  0000 C CNN
+F 2 "SOIC127P600X175-8N" H 4950 6250 50  0001 L BNN
+F 3 "296-1342-5-ND" H 4950 6250 50  0001 L BNN
+F 4 "Dual Low-Noise High-Speed JFET-Input Operational Amplifier 8-SOIC" H 4950 6250 50  0001 L BNN "Field4"
+F 5 "TLE2072CD" H 4950 6250 50  0001 L BNN "Field5"
+F 6 "SOIC-8 Texas Instruments" H 4950 6250 50  0001 L BNN "Field6"
+F 7 "Texas Instruments" H 4950 6250 50  0001 L BNN "Field7"
+F 8 "https://www.digikey.es/product-detail/en/texas-instruments/TLE2072CD/296-1342-5-ND/380961?utm_source=snapeda&utm_medium=aggregator&utm_campaign=symbol" H 4950 6250 50  0001 L BNN "Field8"
+	1    4950 6250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small CB
+U 1 1 5D73E16F
+P 4950 5400
+F 0 "CB" V 4721 5400 50  0000 C CNN
+F 1 "2.2u" V 4812 5400 50  0000 C CNN
+F 2 "" H 4950 5400 50  0001 C CNN
+F 3 "~" H 4950 5400 50  0001 C CNN
+	1    4950 5400
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:C_Small C5
+U 1 1 5D74008F
+P 3500 8100
+F 0 "C5" H 3408 8054 50  0000 R CNN
+F 1 "8.2p" H 3408 8145 50  0000 R CNN
+F 2 "" H 3500 8100 50  0001 C CNN
+F 3 "~" H 3500 8100 50  0001 C CNN
+	1    3500 8100
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:C_Small C3
+U 1 1 5D740478
+P 3850 8100
+F 0 "C3" H 3758 8054 50  0000 R CNN
+F 1 "100p" H 3758 8145 50  0000 R CNN
+F 2 "" H 3850 8100 50  0001 C CNN
+F 3 "~" H 3850 8100 50  0001 C CNN
+	1    3850 8100
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:C_Small C4
+U 1 1 5D740805
+P 4550 8100
+F 0 "C4" H 4458 8054 50  0000 R CNN
+F 1 "100p" H 4458 8145 50  0000 R CNN
+F 2 "" H 4550 8100 50  0001 C CNN
+F 3 "~" H 4550 8100 50  0001 C CNN
+	1    4550 8100
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:C_Small C6
+U 1 1 5D740F13
+P 4950 8100
+F 0 "C6" H 4858 8054 50  0000 R CNN
+F 1 "8.2p" H 4858 8145 50  0000 R CNN
+F 2 "" H 4950 8100 50  0001 C CNN
+F 3 "~" H 4950 8100 50  0001 C CNN
+	1    4950 8100
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:C_Variable CV2
+U 1 1 5D7415AC
+P 3150 8100
+F 0 "CV2" H 3265 8146 50  0000 L CNN
+F 1 "C_Variable" H 3265 8055 50  0000 L CNN
+F 2 "" H 3150 8100 50  0001 C CNN
+F 3 "~" H 3150 8100 50  0001 C CNN
+	1    3150 8100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Variable CV3
+U 1 1 5D741DA2
+P 5500 8100
+F 0 "CV3" H 5615 8146 50  0000 L CNN
+F 1 "C_Variable" H 5500 8000 50  0000 L CNN
+F 2 "" H 5500 8100 50  0001 C CNN
+F 3 "~" H 5500 8100 50  0001 C CNN
+	1    5500 8100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Variable CV1
+U 1 1 5D74AF70
+P 4150 7850
+F 0 "CV1" V 4402 7850 50  0000 C CNN
+F 1 "C_Variable" V 4311 7850 50  0000 C CNN
+F 2 "" H 4150 7850 50  0001 C CNN
+F 3 "~" H 4150 7850 50  0001 C CNN
+	1    4150 7850
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:C_Small CB2
+U 1 1 5D73F9B4
+P 5000 7250
+F 0 "CB2" V 4771 7250 50  0000 C CNN
+F 1 "2.2u" V 4862 7250 50  0000 C CNN
+F 2 "" H 5000 7250 50  0001 C CNN
+F 3 "~" H 5000 7250 50  0001 C CNN
+	1    5000 7250
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_Small R2
+U 1 1 5D75ABFB
+P 5900 8100
+F 0 "R2" H 5959 8146 50  0000 L CNN
+F 1 "165K" H 5950 8000 50  0000 L CNN
+F 2 "" H 5900 8100 50  0001 C CNN
+F 3 "~" H 5900 8100 50  0001 C CNN
+	1    5900 8100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small R3
+U 1 1 5D75B567
+P 6150 8100
+F 0 "R3" H 6209 8146 50  0000 L CNN
+F 1 "10K" H 6209 8055 50  0000 L CNN
+F 2 "" H 6150 8100 50  0001 C CNN
+F 3 "~" H 6150 8100 50  0001 C CNN
+	1    6150 8100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small R4
+U 1 1 5D75B75A
+P 5750 6450
+F 0 "R4" H 5809 6496 50  0000 L CNN
+F 1 "10K" H 5809 6405 50  0000 L CNN
+F 2 "" H 5750 6450 50  0001 C CNN
+F 3 "~" H 5750 6450 50  0001 C CNN
+	1    5750 6450
+	1    0    0    -1  
+$EndComp
+$Comp
+L 74xx:74HC4051 U?
+U 1 1 5D75BF5D
+P 6600 6450
+F 0 "U?" H 6650 7131 50  0000 C CNN
+F 1 "74HC4051" H 6650 7040 50  0000 C CNN
+F 2 "" H 6600 6050 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/cd74hc4051.pdf" H 6600 6050 50  0001 C CNN
+	1    6600 6450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small CC2
+U 1 1 5D75EA3A
+P 6400 7250
+F 0 "CC2" V 6550 7250 50  0000 C CNN
+F 1 "2.2u" V 6250 7250 50  0000 C CNN
+F 2 "" H 6400 7250 50  0001 C CNN
+F 3 "~" H 6400 7250 50  0001 C CNN
+	1    6400 7250
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R_Small R9
+U 1 1 5D76702B
+P 8100 7650
+F 0 "R9" H 8159 7696 50  0000 L CNN
+F 1 "1K" H 8159 7605 50  0000 L CNN
+F 2 "" H 8100 7650 50  0001 C CNN
+F 3 "~" H 8100 7650 50  0001 C CNN
+	1    8100 7650
+	1    0    0    -1  
+$EndComp
+$Comp
+L TLE2072CD:TLE2072CD U6
+U 1 1 5D767BCB
+P 9250 7400
+F 0 "U6" H 9250 7970 50  0000 C CNN
+F 1 "TLE2072CD" H 9250 7879 50  0000 C CNN
+F 2 "SOIC127P600X175-8N" H 9250 7400 50  0001 L BNN
+F 3 "296-1342-5-ND" H 9250 7400 50  0001 L BNN
+F 4 "Dual Low-Noise High-Speed JFET-Input Operational Amplifier 8-SOIC" H 9250 7400 50  0001 L BNN "Field4"
+F 5 "TLE2072CD" H 9250 7400 50  0001 L BNN "Field5"
+F 6 "SOIC-8 Texas Instruments" H 9250 7400 50  0001 L BNN "Field6"
+F 7 "Texas Instruments" H 9250 7400 50  0001 L BNN "Field7"
+F 8 "https://www.digikey.es/product-detail/en/texas-instruments/TLE2072CD/296-1342-5-ND/380961?utm_source=snapeda&utm_medium=aggregator&utm_campaign=symbol" H 9250 7400 50  0001 L BNN "Field8"
+	1    9250 7400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small CD2
+U 1 1 5D768927
+P 9250 8400
+F 0 "CD2" V 9479 8400 50  0000 C CNN
+F 1 "2.2u" V 9388 8400 50  0000 C CNN
+F 2 "" H 9250 8400 50  0001 C CNN
+F 3 "~" H 9250 8400 50  0001 C CNN
+	1    9250 8400
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:C_Small CD
+U 1 1 5D768EA7
+P 9250 6650
+F 0 "CD" V 9300 6750 50  0000 C CNN
+F 1 "2.2u" V 9300 6500 50  0000 C CNN
+F 2 "" H 9250 6650 50  0001 C CNN
+F 3 "~" H 9250 6650 50  0001 C CNN
+	1    9250 6650
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:C_Small C14
+U 1 1 5D76A06C
+P 9300 5400
+F 0 "C14" V 9529 5400 50  0000 C CNN
+F 1 "100n" V 9438 5400 50  0000 C CNN
+F 2 "" H 9300 5400 50  0001 C CNN
+F 3 "~" H 9300 5400 50  0001 C CNN
+	1    9300 5400
+	0    -1   -1   0   
+$EndComp
+$Comp
+L 74xx:74HC4051 U?
+U 1 1 5D76AAC4
+P 11550 7550
+F 0 "U?" H 11600 8231 50  0000 C CNN
+F 1 "74HC4051" H 11600 8140 50  0000 C CNN
+F 2 "" H 11550 7150 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/cd74hc4051.pdf" H 11550 7150 50  0001 C CNN
+	1    11550 7550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C2
+U 1 1 5D76B58A
+P 11650 8300
+F 0 "C2" H 11450 8250 50  0000 L CNN
+F 1 "2.2u" H 11400 8350 50  0000 L CNN
+F 2 "" H 11650 8300 50  0001 C CNN
+F 3 "~" H 11650 8300 50  0001 C CNN
+	1    11650 8300
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:C_Small C?
+U 1 1 5D76B921
+P 11150 6950
+F 0 "C?" V 10921 6950 50  0000 C CNN
+F 1 "C_Small" V 11012 6950 50  0000 C CNN
+F 2 "" H 11150 6950 50  0001 C CNN
+F 3 "~" H 11150 6950 50  0001 C CNN
+	1    11150 6950
+	0    1    1    0   
+$EndComp
+$Comp
+L TLE2072CD:TLE2072CD U7
+U 1 1 5D76CDE4
+P 13150 7500
+F 0 "U7" H 13150 8070 50  0000 C CNN
+F 1 "TLE2072CD" H 13150 7979 50  0000 C CNN
+F 2 "SOIC127P600X175-8N" H 13150 7500 50  0001 L BNN
+F 3 "296-1342-5-ND" H 13150 7500 50  0001 L BNN
+F 4 "Dual Low-Noise High-Speed JFET-Input Operational Amplifier 8-SOIC" H 13150 7500 50  0001 L BNN "Field4"
+F 5 "TLE2072CD" H 13150 7500 50  0001 L BNN "Field5"
+F 6 "SOIC-8 Texas Instruments" H 13150 7500 50  0001 L BNN "Field6"
+F 7 "Texas Instruments" H 13150 7500 50  0001 L BNN "Field7"
+F 8 "https://www.digikey.es/product-detail/en/texas-instruments/TLE2072CD/296-1342-5-ND/380961?utm_source=snapeda&utm_medium=aggregator&utm_campaign=symbol" H 13150 7500 50  0001 L BNN "Field8"
+	1    13150 7500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small CF
+U 1 1 5D76E3F0
+P 13050 6700
+F 0 "CF" V 12821 6700 50  0000 C CNN
+F 1 "2.2u" V 12912 6700 50  0000 C CNN
+F 2 "" H 13050 6700 50  0001 C CNN
+F 3 "~" H 13050 6700 50  0001 C CNN
+	1    13050 6700
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:C_Small CF2
+U 1 1 5D76E920
+P 12900 8550
+F 0 "CF2" V 12671 8550 50  0000 C CNN
+F 1 "2.2u" V 12762 8550 50  0000 C CNN
+F 2 "" H 12900 8550 50  0001 C CNN
+F 3 "~" H 12900 8550 50  0001 C CNN
+	1    12900 8550
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_Small R8
+U 1 1 5D76EE51
+P 13100 6350
+F 0 "R8" V 12904 6350 50  0000 C CNN
+F 1 "4K7" V 12995 6350 50  0000 C CNN
+F 2 "" H 13100 6350 50  0001 C CNN
+F 3 "~" H 13100 6350 50  0001 C CNN
+	1    13100 6350
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_Small R7
+U 1 1 5D76F2CB
+P 14250 8300
+F 0 "R7" H 14191 8254 50  0000 R CNN
+F 1 "4K7" H 14191 8345 50  0000 R CNN
+F 2 "" H 14250 8300 50  0001 C CNN
+F 3 "~" H 14250 8300 50  0001 C CNN
+	1    14250 8300
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:CP_Small C1
+U 1 1 5D770E5F
+P 13950 8300
+F 0 "C1" H 14038 8346 50  0000 L CNN
+F 1 "10u" H 14038 8255 50  0000 L CNN
+F 2 "" H 13950 8300 50  0001 C CNN
+F 3 "~" H 13950 8300 50  0001 C CNN
+	1    13950 8300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:1N4148W D2
+U 1 1 5D7746BF
+P 14400 7300
+F 0 "D2" H 14400 7083 50  0000 C CNN
+F 1 "1N4148W" H 14400 7174 50  0000 C CNN
+F 2 "Diode_SMD:D_SOD-123" H 14400 7125 50  0001 C CNN
+F 3 "https://www.vishay.com/docs/85748/1n4148w.pdf" H 14400 7300 50  0001 C CNN
+	1    14400 7300
+	-1   0    0    1   
+$EndComp
+$Comp
+L Diode:1N4148W D1
+U 1 1 5D775322
+P 13100 6000
+F 0 "D1" H 13100 5783 50  0000 C CNN
+F 1 "1N4148W" H 13100 5874 50  0000 C CNN
+F 2 "Diode_SMD:D_SOD-123" H 13100 5825 50  0001 C CNN
+F 3 "https://www.vishay.com/docs/85748/1n4148w.pdf" H 13100 6000 50  0001 C CNN
+	1    13100 6000
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:C_Small C7
+U 1 1 5D7792FC
+P 8850 2500
+F 0 "C7" H 8942 2546 50  0000 L CNN
+F 1 "1.1n" H 8942 2455 50  0000 L CNN
+F 2 "" H 8850 2500 50  0001 C CNN
+F 3 "~" H 8850 2500 50  0001 C CNN
+	1    8850 2500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:Antenna_Dipole AE1
+U 1 1 5D779CCA
+P 9850 2550
+F 0 "AE1" V 10000 2200 50  0000 C CNN
+F 1 "Antenna_Dipole" V 9900 2000 50  0000 C CNN
+F 2 "" H 9850 2550 50  0001 C CNN
+F 3 "~" H 9850 2550 50  0001 C CNN
+	1    9850 2550
+	0    -1   -1   0   
+$EndComp
+$Comp
+L X9C104SZ:X9C104SZ U?
+U 1 1 5D7379BD
+P 8400 5900
+F 0 "U?" H 9300 6287 60  0000 C CNN
+F 1 "X9C104SZ" H 9300 6181 60  0000 C CNN
+F 2 "SOIC8_3P9116X4P9022" H 9300 6140 60  0001 C CNN
+F 3 "" H 8400 5900 60  0000 C CNN
+	1    8400 5900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	13050 2650 13050 2600
+Wire Wire Line
+	12650 2600 12650 2650
+Connection ~ 12650 2650
+Wire Wire Line
+	12650 2650 13050 2650
+Wire Wire Line
+	13050 2300 13050 2400
+Text Label 11150 2300 0    50   ~ 0
+SIG+
+Wire Wire Line
+	11150 2300 11550 2300
+Text Label 11150 2650 0    50   ~ 0
+SIG-
+Wire Wire Line
+	11850 2300 12000 2300
+Wire Wire Line
+	12000 2350 12000 2300
+Connection ~ 12000 2300
+Wire Wire Line
+	12000 2300 12250 2300
+Wire Wire Line
+	12250 2350 12250 2300
+Connection ~ 12250 2300
+Wire Wire Line
+	12250 2300 12350 2300
+Wire Wire Line
+	11150 2650 12000 2650
+Wire Wire Line
+	12000 2550 12000 2650
+Connection ~ 12000 2650
+Wire Wire Line
+	12250 2550 12250 2650
+Wire Wire Line
+	12000 2650 12250 2650
+Connection ~ 12250 2650
+Wire Wire Line
+	12250 2650 12650 2650
+Wire Wire Line
+	12950 2300 13050 2300
+$Comp
+L Regulator_Linear:LM2937xMP U8
+U 1 1 5D727A08
+P 12650 2300
+F 0 "U8" H 12650 2542 50  0000 C CNN
+F 1 "LM2937xMP" H 12650 2451 50  0000 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-223-3_TabPin2" H 12650 2525 50  0001 C CIN
+F 3 "http://www.ti.com/lit/ds/symlink/lm2937.pdf" H 12650 2250 50  0001 C CNN
+	1    12650 2300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:CP_Small C8
+U 1 1 5D72DD3A
+P 12000 2450
+F 0 "C8" H 11800 2450 50  0000 L CNN
+F 1 "470u" H 11750 2350 50  0000 L CNN
+F 2 "" H 12000 2450 50  0001 C CNN
+F 3 "~" H 12000 2450 50  0001 C CNN
+	1    12000 2450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	13400 2600 13400 2650
+Wire Wire Line
+	13400 2650 13050 2650
+Connection ~ 13050 2650
+Wire Wire Line
+	14750 2200 14750 1800
+Wire Wire Line
+	14750 1800 14300 1800
+Wire Wire Line
+	14100 1800 13650 1800
+Wire Wire Line
+	13650 1800 13650 2200
+Wire Wire Line
+	13650 2200 13750 2200
+Wire Wire Line
+	13750 2300 13400 2300
+Wire Wire Line
+	13400 2300 13400 2400
+Wire Wire Line
+	14250 2900 14250 2950
+Wire Wire Line
+	14250 2950 13400 2950
+Connection ~ 13400 2650
+Wire Wire Line
+	14400 2950 14250 2950
+Connection ~ 14250 2950
+Wire Wire Line
+	14600 2950 14750 2950
+Wire Wire Line
+	14750 2950 14750 2200
+Connection ~ 14750 2200
+Text Label 13150 2950 0    50   ~ 0
+VCC-
+Wire Wire Line
+	13150 2950 13400 2950
+Connection ~ 13400 2950
+Wire Wire Line
+	13400 2650 13400 2950
+Text Label 15050 2200 0    50   ~ 0
+GND
+Wire Wire Line
+	15050 2200 14750 2200
+Wire Wire Line
+	13050 2300 13250 2300
+Wire Wire Line
+	13250 2300 13250 2200
+Wire Wire Line
+	13250 2200 13650 2200
+Connection ~ 13050 2300
+Connection ~ 13650 2200
+Text Label 13250 2200 0    50   ~ 0
+VCC+
+Wire Wire Line
+	5200 2200 5550 2200
+Wire Wire Line
+	5550 2200 5550 2400
+Wire Wire Line
+	5550 2600 5550 3050
+Wire Wire Line
+	3200 2200 3050 2200
+Wire Wire Line
+	3050 2200 3050 2400
+Wire Wire Line
+	3050 2400 3200 2400
+Wire Wire Line
+	3200 2500 2750 2500
+Wire Wire Line
+	2450 2300 2450 2200
+Wire Wire Line
+	2450 2200 3050 2200
+Connection ~ 3050 2200
+Wire Wire Line
+	2450 2500 2450 2700
+Wire Wire Line
+	2450 2700 2750 2700
+Connection ~ 2750 2700
+Wire Wire Line
+	2750 2700 2750 3050
+Wire Wire Line
+	2750 3050 5550 3050
+Wire Wire Line
+	2750 2700 3200 2700
+Text Label 4100 3050 0    50   ~ 0
+GND
+Text Label 2700 2200 0    50   ~ 0
+VCC+
+Wire Wire Line
+	1000 5800 2100 5800
+Wire Wire Line
+	1000 7200 2100 7200
+Wire Wire Line
+	1000 6900 1000 7200
+Wire Wire Line
+	1000 6150 1000 6400
+Wire Wire Line
+	1000 5950 1000 5800
+Wire Wire Line
+	2100 6200 2000 6200
+Wire Wire Line
+	1450 6100 1450 6400
+Wire Wire Line
+	1450 6400 1000 6400
+Connection ~ 1000 6400
+Wire Wire Line
+	1000 6400 1000 6700
+Wire Wire Line
+	1800 6300 1800 6200
+Wire Wire Line
+	1800 6300 2100 6300
+Wire Wire Line
+	1450 6100 2100 6100
+Wire Wire Line
+	2100 6000 1850 6000
+Wire Wire Line
+	1850 6000 1850 5200
+Wire Wire Line
+	1850 5200 3700 5200
+Wire Wire Line
+	3700 5200 3700 5800
+Wire Wire Line
+	3500 5800 3700 5800
+Text Label 1550 6100 0    50   ~ 0
+GND
+Text Label 1600 7200 0    50   ~ 0
+VCC-
+Text Label 1450 5800 0    50   ~ 0
+VCC+
+Text Label 1700 6500 0    50   ~ 0
+SIG-
+Text Label 1700 6600 0    50   ~ 0
+SIG+
+Wire Wire Line
+	1700 6600 2100 6600
+Wire Wire Line
+	2100 6500 1700 6500
+Wire Wire Line
+	4900 7250 4100 7250
+Wire Wire Line
+	4100 7250 4100 6750
+Wire Wire Line
+	4100 6750 4250 6750
+Wire Wire Line
+	3700 5800 3700 6350
+Wire Wire Line
+	3700 6350 4250 6350
+Connection ~ 3700 5800
+Text Label 5450 5400 0    50   ~ 0
+GND
+Wire Wire Line
+	5450 5400 5050 5400
+Wire Wire Line
+	4850 5400 4100 5400
+Wire Wire Line
+	4100 5400 4100 6050
+Wire Wire Line
+	4100 6050 4250 6050
+Wire Wire Line
+	4250 6250 3950 6250
+Wire Wire Line
+	3950 6250 3950 5100
+Wire Wire Line
+	3950 5100 5800 5100
+Wire Wire Line
+	5800 5100 5800 6050
+Wire Wire Line
+	5800 6050 5650 6050
+Text Label 4100 6050 0    50   ~ 0
+VCC+
+Text Label 5300 7250 0    50   ~ 0
+GND
+Wire Wire Line
+	5300 7250 5100 7250
+Wire Wire Line
+	5650 6150 5750 6150
+Wire Wire Line
+	5750 6150 5750 6350
+Wire Wire Line
+	5750 6550 5750 7350
+Wire Wire Line
+	5750 7350 4000 7350
+Wire Wire Line
+	4000 7350 4000 6550
+Wire Wire Line
+	4000 6550 4250 6550
+Text Label 4100 6750 0    50   ~ 0
+VCC-
+Text Label 5800 6050 2    50   ~ 0
+OUT1
+Wire Wire Line
+	4000 7850 3850 7850
+Wire Wire Line
+	3150 7850 3150 7950
+Wire Wire Line
+	3500 7850 3500 8000
+Connection ~ 3500 7850
+Wire Wire Line
+	3500 7850 3150 7850
+Wire Wire Line
+	3850 8000 3850 7850
+Connection ~ 3850 7850
+Wire Wire Line
+	3850 7850 3500 7850
+Wire Wire Line
+	4300 7850 4550 7850
+Wire Wire Line
+	4550 7850 4550 8000
+Wire Wire Line
+	4950 8000 4950 7850
+Wire Wire Line
+	4950 7850 4550 7850
+Connection ~ 4550 7850
+Wire Wire Line
+	5500 7950 5500 7850
+Wire Wire Line
+	5500 7850 4950 7850
+Connection ~ 4950 7850
+Wire Wire Line
+	3150 8250 3150 8400
+Wire Wire Line
+	3150 8400 3500 8400
+Wire Wire Line
+	5500 8400 5500 8250
+Wire Wire Line
+	3500 8200 3500 8400
+Connection ~ 3500 8400
+Wire Wire Line
+	3500 8400 3850 8400
+Wire Wire Line
+	3850 8200 3850 8400
+Connection ~ 3850 8400
+Wire Wire Line
+	3850 8400 4550 8400
+Wire Wire Line
+	4550 8200 4550 8400
+Connection ~ 4550 8400
+Wire Wire Line
+	4550 8400 4950 8400
+Wire Wire Line
+	4950 8200 4950 8400
+Connection ~ 4950 8400
+Wire Wire Line
+	4950 8400 5500 8400
+Wire Wire Line
+	5900 8000 5900 7850
+Wire Wire Line
+	5900 7850 5500 7850
+Connection ~ 5500 7850
+Wire Wire Line
+	5900 8200 5900 8400
+Wire Wire Line
+	5900 8400 5500 8400
+Connection ~ 5500 8400
+Wire Wire Line
+	5900 8400 6150 8400
+Wire Wire Line
+	6150 8400 6150 8200
+Connection ~ 5900 8400
+Text Label 3200 7850 0    50   ~ 0
+OUT1
+Text Label 4200 8400 0    50   ~ 0
+GND
+Wire Wire Line
+	5750 7350 6150 7350
+Wire Wire Line
+	6150 7350 6150 8000
+Connection ~ 5750 7350
+Wire Wire Line
+	6600 5950 6000 5950
+Wire Wire Line
+	6000 5950 6000 7250
+Wire Wire Line
+	6000 7250 6300 7250
+Wire Wire Line
+	6500 7250 6600 7250
+Wire Wire Line
+	6600 7250 6600 7050
+Text Label 6100 6750 0    50   ~ 0
+GND
+Text Label 6200 5950 0    50   ~ 0
+VCC+
+Connection ~ 6600 7250
+Wire Wire Line
+	6700 7050 6800 7050
+Wire Wire Line
+	6800 7050 6800 7250
+$Comp
+L Device:C_Small CC
+U 1 1 5D75E170
+P 6700 7250
+F 0 "CC" V 6550 7200 50  0000 L CNN
+F 1 "2.2u" V 6850 7150 50  0000 L CNN
+F 2 "" H 6700 7250 50  0001 C CNN
+F 3 "~" H 6700 7250 50  0001 C CNN
+	1    6700 7250
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	6100 6750 6300 6750
+Text Label 6100 6550 0    50   ~ 0
+GND
+Text Label 6100 6450 0    50   ~ 0
+BM
+Text Label 6100 6350 0    50   ~ 0
+AM
+Wire Wire Line
+	6300 6150 5750 6150
+Connection ~ 5750 6150
+Wire Wire Line
+	6100 6350 6300 6350
+Wire Wire Line
+	6100 6450 6300 6450
+Wire Wire Line
+	6100 6550 6300 6550
+Text Label 6600 7200 1    50   ~ 0
+GND
+Text Label 6800 7050 0    50   ~ 0
+VCC-
+Text Label 7150 6350 0    50   ~ 0
+X2
+Text Label 7150 6250 0    50   ~ 0
+X1
+Text Label 7150 6150 0    50   ~ 0
+X0
+Wire Wire Line
+	7150 6150 7000 6150
+Wire Wire Line
+	7150 6250 7000 6250
+Wire Wire Line
+	7150 6350 7000 6350
+Wire Wire Line
+	9150 6650 8550 6650
+Wire Wire Line
+	8550 6650 8550 7200
+Text Label 9650 6650 0    50   ~ 0
+GND
+Text Label 8700 6650 0    50   ~ 0
+VCC+
+Text Label 8350 7500 0    50   ~ 0
+X2
+Text Label 8350 7700 0    50   ~ 0
+GND
+Text Label 8350 7900 0    50   ~ 0
+VCC-
+Text Label 9550 8400 0    50   ~ 0
+GND
+Wire Wire Line
+	9650 6650 9350 6650
+Wire Wire Line
+	8550 7400 8100 7400
+Wire Wire Line
+	8100 7400 8100 7550
+Wire Wire Line
+	8550 7500 8350 7500
+Wire Wire Line
+	8550 7600 8550 7700
+Wire Wire Line
+	8350 7700 8550 7700
+Connection ~ 8550 7700
+Wire Wire Line
+	8550 7900 8350 7900
+Text Label 8100 7950 1    50   ~ 0
+GND
+Wire Wire Line
+	8100 7950 8100 7750
+Wire Wire Line
+	10200 6100 10350 6100
+Wire Wire Line
+	10350 6100 10350 7200
+Wire Wire Line
+	10350 7200 9950 7200
+Wire Wire Line
+	10200 6200 10200 6500
+Wire Wire Line
+	10200 6500 8100 6500
+Wire Wire Line
+	8100 6500 8100 7400
+Connection ~ 8100 7400
+Wire Wire Line
+	10200 5900 10200 5400
+Wire Wire Line
+	10200 5400 9400 5400
+Wire Wire Line
+	9200 5400 8100 5400
+Wire Wire Line
+	8100 5400 8100 6200
+Wire Wire Line
+	8100 6200 8400 6200
+Text Label 8200 5900 0    50   ~ 0
+INC
+Text Label 8200 6000 0    50   ~ 0
+UD
+Text Label 8200 6200 0    50   ~ 0
+GND
+Text Label 10400 5900 0    50   ~ 0
+V5
+Text Label 10400 6000 0    50   ~ 0
+CS
+Wire Wire Line
+	10400 5900 10200 5900
+Connection ~ 10200 5900
+Wire Wire Line
+	10400 6000 10200 6000
+Wire Wire Line
+	8400 5900 8200 5900
+Wire Wire Line
+	8200 6000 8400 6000
+Wire Wire Line
+	9550 8400 9350 8400
+Wire Wire Line
+	9150 8400 8550 8400
+Wire Wire Line
+	8550 8400 8550 7900
+Connection ~ 8550 7900
+Wire Wire Line
+	11650 8400 11550 8400
+Wire Wire Line
+	11550 8400 11550 8150
+Wire Wire Line
+	11650 8150 11650 8200
+Text Label 11650 8200 0    50   ~ 0
+VCC-
+Text Label 11550 8350 1    50   ~ 0
+GND
+Wire Wire Line
+	11550 6950 11550 7050
+Wire Wire Line
+	10750 6950 10750 8400
+Wire Wire Line
+	10750 8400 11550 8400
+Connection ~ 11550 8400
+Wire Wire Line
+	11250 6950 11550 6950
+Wire Wire Line
+	11050 6950 10750 6950
+Text Label 11250 6950 0    50   ~ 0
+VCC+
+Text Label 10950 7850 0    50   ~ 0
+GND
+Text Label 10950 7650 0    50   ~ 0
+GND
+Text Label 10950 7550 0    50   ~ 0
+BD
+Text Label 10950 7450 0    50   ~ 0
+AD
+Wire Wire Line
+	11950 7650 12050 7650
+Wire Wire Line
+	12050 7650 12050 7750
+Wire Wire Line
+	12050 7950 11950 7950
+Wire Wire Line
+	11950 7750 12050 7750
+Connection ~ 12050 7750
+Wire Wire Line
+	12050 7750 12050 7850
+Wire Wire Line
+	11950 7850 12050 7850
+Connection ~ 12050 7850
+Wire Wire Line
+	12050 7850 12050 7950
+Wire Wire Line
+	11950 7550 12050 7550
+Wire Wire Line
+	12050 7550 12050 7650
+Connection ~ 12050 7650
+Wire Wire Line
+	12100 6100 12100 7250
+Wire Wire Line
+	12100 7250 11950 7250
+Wire Wire Line
+	10350 6100 12100 6100
+Connection ~ 10350 6100
+Text Label 12100 7350 0    50   ~ 0
+X0
+$Comp
+L Device:R_Small R5
+U 1 1 5D9716A2
+P 12250 7050
+F 0 "R5" V 12350 7050 50  0000 C CNN
+F 1 "1K5" V 12145 7050 50  0000 C CNN
+F 2 "" H 12250 7050 50  0001 C CNN
+F 3 "~" H 12250 7050 50  0001 C CNN
+	1    12250 7050
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:R_Small R6
+U 1 1 5D971E92
+P 12250 7650
+F 0 "R6" V 12350 7650 50  0000 C CNN
+F 1 "1K" V 12145 7650 50  0000 C CNN
+F 2 "" H 12250 7650 50  0001 C CNN
+F 3 "~" H 12250 7650 50  0001 C CNN
+	1    12250 7650
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	11950 7450 12250 7450
+Wire Wire Line
+	12250 7450 12250 7550
+Wire Wire Line
+	12250 7150 12250 7450
+Connection ~ 12250 7450
+Wire Wire Line
+	12100 7350 11950 7350
+Text Label 12250 6700 1    50   ~ 0
+X1
+Text Label 12250 8000 1    50   ~ 0
+GND
+Wire Wire Line
+	12250 8000 12250 7750
+Wire Wire Line
+	12250 6950 12250 6700
+Wire Wire Line
+	10950 7450 11250 7450
+Wire Wire Line
+	10950 7550 11250 7550
+Wire Wire Line
+	10950 7650 11250 7650
+Wire Wire Line
+	10950 7850 11250 7850
+Text Label 13400 6700 0    50   ~ 0
+GND
+Text Label 12450 7100 1    50   ~ 0
+VCC+
+Text Label 12350 7800 0    50   ~ 0
+GND
+Text Label 12350 8000 0    50   ~ 0
+VCC-
+Wire Wire Line
+	12350 8000 12450 8000
+Wire Wire Line
+	12350 7800 12450 7800
+Wire Wire Line
+	12450 7300 12450 6700
+Wire Wire Line
+	12450 6700 12950 6700
+Wire Wire Line
+	13150 6700 13400 6700
+Wire Wire Line
+	13000 6350 12450 6350
+Wire Wire Line
+	12450 6350 12450 6700
+Connection ~ 12450 6700
+Wire Wire Line
+	13200 6350 13850 6350
+Wire Wire Line
+	13850 6350 13850 7300
+Wire Wire Line
+	13250 6000 13850 6000
+Wire Wire Line
+	13850 6000 13850 6350
+Connection ~ 13850 6350
+Wire Wire Line
+	12950 6000 12450 6000
+Wire Wire Line
+	12450 6000 12450 6350
+Connection ~ 12450 6350
+Wire Wire Line
+	14250 7300 13850 7300
+Connection ~ 13850 7300
+Wire Wire Line
+	12800 8550 12450 8550
+Wire Wire Line
+	12450 8550 12450 8000
+Connection ~ 12450 8000
+Wire Wire Line
+	13000 8550 13950 8550
+Wire Wire Line
+	13950 8550 13950 8400
+Wire Wire Line
+	14250 8400 14250 8550
+Wire Wire Line
+	14250 8550 13950 8550
+Connection ~ 13950 8550
+Wire Wire Line
+	14550 7300 14550 8000
+Wire Wire Line
+	13950 8000 13950 8200
+Wire Wire Line
+	14250 8200 14250 8000
+Wire Wire Line
+	13950 8000 14250 8000
+Connection ~ 14250 8000
+Wire Wire Line
+	14250 8000 14550 8000
+Text Label 13400 8550 0    50   ~ 0
+GND
+Text Label 14750 8000 0    50   ~ 0
+OUTPUT
+Wire Wire Line
+	14750 8000 14550 8000
+Connection ~ 14550 8000
+Text Label 8000 2250 0    50   ~ 0
+SIG+
+Text Label 8000 2750 0    50   ~ 0
+SIG-
+Wire Wire Line
+	8000 2250 8850 2250
+Wire Wire Line
+	8850 2250 8850 2400
+Wire Wire Line
+	8000 2750 8850 2750
+Wire Wire Line
+	8850 2750 8850 2600
+Wire Wire Line
+	8850 2750 10050 2750
+Wire Wire Line
+	10050 2750 10050 2550
+Connection ~ 8850 2750
+Wire Wire Line
+	8850 2250 10050 2250
+Wire Wire Line
+	10050 2250 10050 2450
+Connection ~ 8850 2250
+Text Notes 4000 1550 0    50   ~ 0
+POWER SUPPLY\n
+Text Notes 12950 1300 0    50   ~ 0
+POWER SUPPLY\n
+Text Notes 8900 1450 0    50   ~ 0
+POWER SUPLY\n
+Text Notes 2500 4750 0    50   ~ 0
+1st AMPLIFICATION
+Text Notes 4850 4700 0    50   ~ 0
+FILTER
+Text Notes 8800 4650 0    50   ~ 0
+2nd AMPLIFICATION/REDUCTION
+Text Notes 12900 4650 0    50   ~ 0
+ENVOLVENTE
+$EndSCHEMATC
